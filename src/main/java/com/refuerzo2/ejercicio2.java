@@ -23,7 +23,6 @@ public class ejercicio2 {
             teclado.nextLine(); 
             estudiantes.put(nombre, nota);
         }
-
         // 3. Mostrar la lista completa.
         System.out.println("Lista de estudiantes y sus notas:");
         for (Map.Entry<String, Double> entry : estudiantes.entrySet()) {
